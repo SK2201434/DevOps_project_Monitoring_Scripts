@@ -1,0 +1,27 @@
+======================================
+Server Health Report
+Generated: 2025-10-10 14:32:13
+======================================
+
+SYSTEM INFORMATION:
+  Hostname: Satish-PC
+  Uptime: up 50 minutes
+
+DISK USAGE:
+/dev/sdd       1007G  1.8G  954G   1% /
+
+MEMORY USAGE:
+Mem:           7.6Gi       504Mi       7.1Gi       3.5Mi       164Mi       7.1Gi
+
+CPU LOAD:
+  Load Average:  0.03, 0.03, 0.00
+
+TOP PROCESSES:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+satish       866 15.3  0.0   4884  3584 pts/0    S+   14:32   0:00 /bin/bash ./server-health-monitor.sh
+root          89  0.0  0.0  25116  6272 ?        Ss   13:42   0:01 /usr/lib/systemd/systemd-udevd
+root           1  0.0  0.1  21684 12112 ?        Ss   13:42   0:00 /sbin/init
+root          43  0.0  0.2  66688 16836 ?        S<s  13:42   0:00 /usr/lib/systemd/systemd-journald
+root         196  0.0  0.1 1756096 12160 ?       Ssl  13:42   0:00 /usr/libexec/wsl-pro-service -vv
+
+======================================

@@ -1,0 +1,27 @@
+======================================
+Server Health Report
+Generated: 2025-10-13 17:00:06
+======================================
+
+SYSTEM INFORMATION:
+  Hostname: Satish-PC
+  Uptime: up 42 minutes
+
+DISK USAGE:
+/dev/sdd       1007G  1.8G  954G   1% /
+
+MEMORY USAGE:
+Mem:           7.6Gi       524Mi       7.1Gi       3.5Mi       166Mi       7.1Gi
+
+CPU LOAD:
+  Load Average:  0.04, 0.01, 0.00
+
+TOP PROCESSES:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+satish       958  8.3  0.0   4884  3584 ?        S    17:00   0:00 /bin/bash /home/satish/devops-project/week1-advanced/monitoring-system/server-health-monitor.sh
+root         956  5.0  0.0   6952  3848 ?        S    17:00   0:00 /usr/sbin/CRON -f -P
+root          92  0.0  0.0  25140  6144 ?        Ss   16:17   0:01 /usr/lib/systemd/systemd-udevd
+root           1  0.0  0.1  21700 12248 ?        Ss   16:17   0:00 /sbin/init
+root          46  0.0  0.2  66752 19088 ?        S<s  16:17   0:00 /usr/lib/systemd/systemd-journald
+
+======================================
